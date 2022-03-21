@@ -6,5 +6,7 @@ git commit -am "some comment" ... to add all changes and commit
 git reset <firleName> ... unstaging a file in stage.
 git reset HEAD~1 ... getting back to the just older than the last commit.
 git reset <commit number> getting  back to the specific commit.
-git reset --hard <commit number> .... getting back to the specifi commit and delete the unstaging areas too.
-
+git reset --hard <commit number> .... getting back to the specific commit and delete the unstaging areas too.
+git checkout - ... checkout to the previous branch I have checked out.
+git cherry-pick <commit id> ... bring in changes from a specific commit, and commiting the changes.
+git cherry-pick <commit id> -n ... bring in changes from a specific commit, and not commiting the changes.
