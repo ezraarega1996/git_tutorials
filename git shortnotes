@@ -1,13 +1,28 @@
 Git is a modern and widely used distributed version system in the world.
 Git is used to manage projects, monitor and work together in a team in one work space.
 git diff ... used to check the differences that made after the last commit.
+git diff --staged ... check the difference that made in the staging area.
+git diff <commit number> check the difference between what is on our directory to <commit number>
 git diff <branchName> ... compares the difference codes in the current branch and the <branchName>
 git commit -am "some comment" ... to add all changes and commit 
 git reset <firleName> ... unstaging a file in stage.
+git reset HEAD ... move all files from staged area to unstaged area.
 git reset HEAD~1 ... getting back to the just older than the last commit.
 git reset <commit number> getting  back to the specific commit.
 git reset --hard <commit number> .... getting back to the specific commit and delete the unstaging areas too.
+git reset --hard HEAD ... delete the the files from the unstaged areas.
 git checkout - ... checkout to the previous branch I have checked out.
 git cherry-pick <commit id> ... bring in changes from a specific commit, and commiting the changes.
 git cherry-pick <commit id> -n ... bring in changes from a specific commit, and not commiting the changes.
-git fetch getting new branches from the server. it doesn't update the code, but you can access the branch that your friend created.
+git fetch ... getting new branches and tags from the server. it doesn't update the code, but you can access the branch that your friend created.
+git commit -a to commit files in the staging area and changed after then.
+git push --all to push all the branches to the remote repository.
+git config --list check the configuration settings.
+git rm --cached <file name> ...deleting a file from the remote repository. then commit, then push.
+git push origin delete <branch name> ... deleting a remote branch.
+git branch -m ... renaming a branch.
+git rebase <branch name> writes the commits from <branch name> to the current branch.
+git checkout <commit number> <file name> ... copy the file from <commit number> and put it into the staging area.
+git restore <file name> ... discard the changes in <file name> from unstaged area.
+git checkout <commit number> <file name> -p ... copy the file from <commit number> and lets us to choose which part of the file we should add to the staging area.
+ref: https://www.youtube.com/watch?v=MIFQwHlEI9o
