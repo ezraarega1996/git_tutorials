@@ -1,0 +1,10 @@
+Git is a modern and widely used distributed version system in the world.
+Git is used to manage projects, monitor and work together in a team in one work space.
+git diff ... used to check the differences that made after the last commit.
+git diff <branchName> ... compares the difference codes in the current branch and the <branchName>
+git commit -am "some comment" ... to add all changes and commit 
+git reset <firleName> ... unstaging a file in stage.
+git reset HEAD~1 ... getting back to the just older than the last commit.
+git reset <commit number> getting  back to the specific commit.
+git reset --hard <commit number> .... getting back to the specifi commit and delete the unstaging areas too.
+
