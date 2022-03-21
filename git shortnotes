@@ -10,3 +10,4 @@ git reset --hard <commit number> .... getting back to the specific commit and de
 git checkout - ... checkout to the previous branch I have checked out.
 git cherry-pick <commit id> ... bring in changes from a specific commit, and commiting the changes.
 git cherry-pick <commit id> -n ... bring in changes from a specific commit, and not commiting the changes.
+git fetch getting new branches from the server. it doesn't update the code, but you can access the branch that your friend created.
